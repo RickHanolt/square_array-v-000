@@ -7,5 +7,6 @@ end
 =end
 
 def square_array(numbers)
+  new_numbers = Array.new
   new_numbers.collect(items**2)
 end
